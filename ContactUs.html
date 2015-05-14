@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color:gray;
+    height:100px;
+    text-align:center;
+    padding:5px;
+    font: 300 40px/0 'Oleo Script', Helvetica, sans-serif;
+    color: #FF6699;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:350px;
+    width:100px;
+    float:left;
+    padding:5px;
+    font-size:20px;	      
+}
+#section {
+    width:700px;
+    float:left;
+    padding:10px;
+    text-align:center;
+    	 	 
+}
+
+#footer {
+    background-color:#FF6699;
+    color:gray;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div id="header">
+<img src="JewelryBox.jpg" align="left" style="width:100px;height:100px">
+<h1>The Jewelry Box</h1>
+</div>
+
+<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+
+<div id="nav">
+<a href="example2.html">Home</a><br>
+<a href="AboutUs.html">About Us</a><br>
+<a href="Products.html">Products</a><br>
+<a href="Specials.html">Specials</a><br>
+<a href="News.html">News</a><br>
+<a href="ContactUs.html#">Contact Us</a><br>
+</div>
+
+
+<div id="section">
+<h2>Contact Us!</h2>
+
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>	
+
+</div>
+
+
+
+<div id="footer">
+<h3>The Jewelry Box</h3>
+
+Copyright &copy; TheJewelryBox.com
+</div>
+
+</body>
+</html>
