@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color:gray;
+    height:100px;
+    text-align:center;
+    padding:5px;
+    font: 300 40px/0 'Oleo Script', Helvetica, sans-serif;
+    color: #FF6699;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:380px;
+    width:100px;
+    float:left;
+    padding:5px;
+    font-size:20px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;
+    text-align:center;
+    font-family: Papyrus, fantasy;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.3999996185303px;
+}
+
+#aside {
+    width:300px;
+    float:right;
+    text-align:center;
+    font-size:15px;
+    padding:10px;	 	 
+}
+ 	 
+#article {
+    width:300px;
+    font-size:15px;
+    padding:15px;	 	 
+}
+
+#footer {
+    background-color:#FF6699;
+    color:gray;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div id="header">
+<img src="JewelryBox.jpg" align="left" style="width:100px;height:100px">
+<h1>The Jewelry Box</h1>
+</div>
+
+<div id="nav">
+<a href="example2.html">Home</a><br>
+<a href="AboutUs.html">About Us</a><br>
+<a href="Products.html">Products</a><br>
+<a href="Specials.html">Specials</a><br>
+<a href="News.html">News</a><br>
+<a href="ContactUs.html#">Contact Us</a><br>
+</div>
+
+<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+
+<div id="section">
+Rose ring with cubic zirconia
+<img src="RIngs.jpg" align="left" style="width:200px;height:200px"></a>
+</div>
+
+<div id="aside">
+Reviews:<br>
+No Reviews Yet!<br><br>
+Would you like to review this product?<br>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your review:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Reviewed Product!" />
+</form>	
+
+
+</div>
+
+<div id="article">
+Material
+<select>
+  <option value="RoseGold">Rose Gold</option>
+  <option value="Gold">Gold</option>
+  <option value="WhiteGold">White Gold</option>
+  <option value="SterlingSilver">Sterling Silver</option>
+</select><br><br>
+Size
+<select>
+  <option value="Size5">5</option>
+  <option value="Size6">6</option>
+  <option value="Size7">7</option>
+  <option value="Size8">8</option>
+  <option value="Size9">9</option>
+</select><br><br>
+Quantity
+<select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select><br><br>
+<button type="button" onclick="alert('Added To Bag!')">Add to Bag!</button>
+ 
+</div>
+
+
+
+
+
+
+<div id="footer">
+<h3>The Jewelry Box</h3>
+
+Copyright &copy; TheJewelryBox.com
+</div>
+
+</body>
+</html>
